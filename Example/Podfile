@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XKCalendarUtil_Example' do
+  pod 'XKCalendarUtil', :path => '../'
+
+  target 'XKCalendarUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
