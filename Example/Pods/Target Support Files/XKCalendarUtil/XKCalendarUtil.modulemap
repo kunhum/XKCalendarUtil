@@ -1,0 +1,6 @@
+framework module XKCalendarUtil {
+  umbrella header "XKCalendarUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

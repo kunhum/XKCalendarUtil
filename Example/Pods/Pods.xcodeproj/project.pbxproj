@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00193051E1AEFF3F48953A48EFB927D5 /* Lunar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F843B2F0B7AA8308E2B9E2137A53E91 /* Lunar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07D87C36D2A23A48B8123916EED0B7D3 /* XKCalendarUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5AC01550B51C7D812514E17F3AD7155 /* XKCalendarUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1292BBC6CDAA184C390BDA7547B2DA88 /* Solar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD22C15B884E8C2C15E2F1F38BEC892 /* Solar.m */; };
+		194126AE589DF53E71DC71543E4EABE2 /* CalendarDisplyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F25257A3B32695AD3A3A479585795687 /* CalendarDisplyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F09CF23A7D7273EF8FD661A41A7831E /* XKCalendarUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FD66FF9CB08D31A9ABA2C3A56AA0DE22 /* XKCalendarUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C33E989D59FD1DBFDB1056F23F5B3DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2E91C1CD40C9B05C0331666103EB82B3 /* Solar.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2A171AA700234E43DA858CA99D1E4E /* Solar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33BE2A4A6AC8A81BDC353D73DA27D034 /* Pods-XKCalendarUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E526A47D2257D084276F2053116C5C2 /* Pods-XKCalendarUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		386FBA79DC33A0B4F2681541AC31BFA5 /* XKCalendarUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 636A367A4CFEF60FF9245172155F7F4A /* XKCalendarUtil-dummy.m */; };
+		756A2ED375600BC24FB6281C943C3795 /* CalendarHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F582D458E962D50BC240853D8269325 /* CalendarHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F759075EDAC55EFF17F633882308D1 /* LunarSolarTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 635C13CB0B1D81474F258E024A1130C8 /* LunarSolarTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933DA2C2309FC4B9BB3C842717CEBCA0 /* XKCalendarUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 459D0E08CB4F9D1945318A1A4F41E85E /* XKCalendarUtil.m */; };
+		95CA705FAEEE6DDDDF6EEE1961A75FFB /* LunarSolarTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A9C76103E57C5E3AEB769C13A2D051 /* LunarSolarTransform.m */; };
+		A6A0A2C859AE13823B3F5125935197F3 /* Pods-XKCalendarUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFAC95D92F677588DE9DF461399B7E6 /* Pods-XKCalendarUtil_Tests-dummy.m */; };
+		AD39FFA1B403C2AA78AC295A8A9AC318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B1795EFCF5C43087A08DC78E5D264126 /* CalendarDisplyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C81E1819F1152B26664DA8FCBB1F0AE /* CalendarDisplyManager.m */; };
+		BA3BD15921DA7A20E6CFD70C47EDC415 /* Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9558F418C6C00673E36844C811B1 /* Lunar.m */; };
+		C4C0D518CCB96F9E85A9123FB02C94EC /* Pods-XKCalendarUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F86AAB0184535A187EBFD5E6B33B60 /* Pods-XKCalendarUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E91ECB065FFE07FBFE361C9C08AF79E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FB82E39A5F08EDEA0F7B06EEA3ADD646 /* Pods-XKCalendarUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A287F4251F360342D5C9F5B56FAAE7A0 /* Pods-XKCalendarUtil_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E6CCF3C8981CF46677A63EB5E3CDF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8367F56555F400FA6D5576C8AB1E4E;
+			remoteInfo = XKCalendarUtil;
+		};
+		5031335A05B4EC2F4CA3E4A4B5FDEF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A172CEC241CA546D7C03782BEB89669B;
+			remoteInfo = "Pods-XKCalendarUtil_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0210E024896EA52DA711A065EE68DBAE /* XKCalendarUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XKCalendarUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C81E1819F1152B26664DA8FCBB1F0AE /* CalendarDisplyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CalendarDisplyManager.m; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/CalendarDisplyManager.m; sourceTree = "<group>"; };
+		0E526A47D2257D084276F2053116C5C2 /* Pods-XKCalendarUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKCalendarUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		273A4C1C5B4ABB0B4E8BEC909AE44D98 /* Pods-XKCalendarUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKCalendarUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F582D458E962D50BC240853D8269325 /* CalendarHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarHeader.h; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/CalendarHeader.h; sourceTree = "<group>"; };
+		39BBA8010FBAF43F422F8167103C7C14 /* XKCalendarUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKCalendarUtil-prefix.pch"; sourceTree = "<group>"; };
+		3A5795475F0C1A9F2498531FA8FDCA44 /* Pods-XKCalendarUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKCalendarUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DD22C15B884E8C2C15E2F1F38BEC892 /* Solar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Solar.m; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/Solar.m; sourceTree = "<group>"; };
+		459D0E08CB4F9D1945318A1A4F41E85E /* XKCalendarUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKCalendarUtil.m; path = XKCalendarUtil/Classes/XKCalendarUtil/XKCalendarUtil.m; sourceTree = "<group>"; };
+		45CA9558F418C6C00673E36844C811B1 /* Lunar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lunar.m; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/Lunar.m; sourceTree = "<group>"; };
+		52193F8EE502C828F0A101204354F07F /* Pods-XKCalendarUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKCalendarUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		59F86AAB0184535A187EBFD5E6B33B60 /* Pods-XKCalendarUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKCalendarUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B5884759BEFDA06FC0EF41B2FAB5035 /* Pods-XKCalendarUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKCalendarUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5B963D269C7DD9F93E77994FDF5A8210 /* Pods-XKCalendarUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKCalendarUtil_Tests-resources.sh"; sourceTree = "<group>"; };
+		601C7618B3EA3A4A9EDE83D57A01A0A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635C13CB0B1D81474F258E024A1130C8 /* LunarSolarTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LunarSolarTransform.h; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/LunarSolarTransform.h; sourceTree = "<group>"; };
+		636A367A4CFEF60FF9245172155F7F4A /* XKCalendarUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKCalendarUtil-dummy.m"; sourceTree = "<group>"; };
+		666A1C9E2C7487B8612365FD9FA434D6 /* Pods-XKCalendarUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKCalendarUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C56AFF9DC9CAF401CA8C55443B5E666 /* XKCalendarUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XKCalendarUtil.framework; path = XKCalendarUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F843B2F0B7AA8308E2B9E2137A53E91 /* Lunar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lunar.h; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/Lunar.h; sourceTree = "<group>"; };
+		7A2B57E3E18DF4D6F3A07D56DC14D4CF /* Pods-XKCalendarUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKCalendarUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8B3C3FC635DF90550355AF5F272419C1 /* XKCalendarUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKCalendarUtil.modulemap; sourceTree = "<group>"; };
+		8BBDA66AF697F954493FC0816F0EE824 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C00115BAF320B0D2191904E367FD4BD /* Pods-XKCalendarUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKCalendarUtil_Example-resources.sh"; sourceTree = "<group>"; };
+		912709ACE92049B724C8F1EA7CD82FE5 /* Pods-XKCalendarUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKCalendarUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BFAC95D92F677588DE9DF461399B7E6 /* Pods-XKCalendarUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKCalendarUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		9C957AF1B35079520AA6066E2EAB084A /* Pods-XKCalendarUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKCalendarUtil_Example.modulemap"; sourceTree = "<group>"; };
+		A287F4251F360342D5C9F5B56FAAE7A0 /* Pods-XKCalendarUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKCalendarUtil_Example-dummy.m"; sourceTree = "<group>"; };
+		A32BDF6DF8767134C487913D2825532D /* XKCalendarUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKCalendarUtil.xcconfig; sourceTree = "<group>"; };
+		A35F118C10BD724D509A80B07C4D0467 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B2B078634E33564C044D1343EE4D2238 /* Pods_XKCalendarUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKCalendarUtil_Example.framework; path = "Pods-XKCalendarUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AC01550B51C7D812514E17F3AD7155 /* XKCalendarUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKCalendarUtil-umbrella.h"; sourceTree = "<group>"; };
+		C07B141FC794116CCE28D5C925E957AF /* Pods-XKCalendarUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKCalendarUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6578543BBFC202C85FB689ED88CF077 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1E30C49709120C36576DC992D97755 /* Pods-XKCalendarUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKCalendarUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		CC2A171AA700234E43DA858CA99D1E4E /* Solar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Solar.h; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/Solar.h; sourceTree = "<group>"; };
+		DD85E26DEB4B6846A4BBD6E0909906A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E7A9C76103E57C5E3AEB769C13A2D051 /* LunarSolarTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LunarSolarTransform.m; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/LunarSolarTransform.m; sourceTree = "<group>"; };
+		E8E0533F601A7A98228FCE391D54828C /* Pods-XKCalendarUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XKCalendarUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F25257A3B32695AD3A3A479585795687 /* CalendarDisplyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarDisplyManager.h; path = XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/CalendarDisplyManager.h; sourceTree = "<group>"; };
+		F6586407487B9DF42CC42FD02B7D1F97 /* Pods_XKCalendarUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XKCalendarUtil_Tests.framework; path = "Pods-XKCalendarUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FFB5241158849AB4A93FBAAC5999B9 /* Pods-XKCalendarUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKCalendarUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD66FF9CB08D31A9ABA2C3A56AA0DE22 /* XKCalendarUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKCalendarUtil.h; path = XKCalendarUtil/Classes/XKCalendarUtil/XKCalendarUtil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136D53505025424EE7CFC46EE2AB97F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C33E989D59FD1DBFDB1056F23F5B3DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF169FA2B1FFDFCF8B9A4098BF98DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD39FFA1B403C2AA78AC295A8A9AC318 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D4882370F3414C8BD8D2C028AD33D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91ECB065FFE07FBFE361C9C08AF79E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201E828E51E403D91FE4418E54798C40 /* Pods-XKCalendarUtil_Example */ = {
+			isa = PBXGroup;
+			children = (
+				601C7618B3EA3A4A9EDE83D57A01A0A2 /* Info.plist */,
+				9C957AF1B35079520AA6066E2EAB084A /* Pods-XKCalendarUtil_Example.modulemap */,
+				666A1C9E2C7487B8612365FD9FA434D6 /* Pods-XKCalendarUtil_Example-acknowledgements.markdown */,
+				3A5795475F0C1A9F2498531FA8FDCA44 /* Pods-XKCalendarUtil_Example-acknowledgements.plist */,
+				A287F4251F360342D5C9F5B56FAAE7A0 /* Pods-XKCalendarUtil_Example-dummy.m */,
+				5B5884759BEFDA06FC0EF41B2FAB5035 /* Pods-XKCalendarUtil_Example-frameworks.sh */,
+				8C00115BAF320B0D2191904E367FD4BD /* Pods-XKCalendarUtil_Example-resources.sh */,
+				0E526A47D2257D084276F2053116C5C2 /* Pods-XKCalendarUtil_Example-umbrella.h */,
+				912709ACE92049B724C8F1EA7CD82FE5 /* Pods-XKCalendarUtil_Example.debug.xcconfig */,
+				52193F8EE502C828F0A101204354F07F /* Pods-XKCalendarUtil_Example.release.xcconfig */,
+			);
+			name = "Pods-XKCalendarUtil_Example";
+			path = "Target Support Files/Pods-XKCalendarUtil_Example";
+			sourceTree = "<group>";
+		};
+		2828B9EB1E31B9248B6A17886019596F /* Pods-XKCalendarUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6578543BBFC202C85FB689ED88CF077 /* Info.plist */,
+				CA1E30C49709120C36576DC992D97755 /* Pods-XKCalendarUtil_Tests.modulemap */,
+				273A4C1C5B4ABB0B4E8BEC909AE44D98 /* Pods-XKCalendarUtil_Tests-acknowledgements.markdown */,
+				C07B141FC794116CCE28D5C925E957AF /* Pods-XKCalendarUtil_Tests-acknowledgements.plist */,
+				9BFAC95D92F677588DE9DF461399B7E6 /* Pods-XKCalendarUtil_Tests-dummy.m */,
+				E8E0533F601A7A98228FCE391D54828C /* Pods-XKCalendarUtil_Tests-frameworks.sh */,
+				5B963D269C7DD9F93E77994FDF5A8210 /* Pods-XKCalendarUtil_Tests-resources.sh */,
+				59F86AAB0184535A187EBFD5E6B33B60 /* Pods-XKCalendarUtil_Tests-umbrella.h */,
+				F6FFB5241158849AB4A93FBAAC5999B9 /* Pods-XKCalendarUtil_Tests.debug.xcconfig */,
+				7A2B57E3E18DF4D6F3A07D56DC14D4CF /* Pods-XKCalendarUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-XKCalendarUtil_Tests";
+			path = "Target Support Files/Pods-XKCalendarUtil_Tests";
+			sourceTree = "<group>";
+		};
+		2BD4343272AE43A6C70A20099B4A17D1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A64D321E1A4139892968EED4C593CE3 /* XKCalendarUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		30B1CD8B019FCF13F4B22C1105766721 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A35F118C10BD724D509A80B07C4D0467 /* LICENSE */,
+				DD85E26DEB4B6846A4BBD6E0909906A3 /* README.md */,
+				0210E024896EA52DA711A065EE68DBAE /* XKCalendarUtil.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2BD4343272AE43A6C70A20099B4A17D1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A6833DC9A7D866581A0DC21FB6BE8C1F /* Products */,
+				80BB851C6C5F9A1651E89B764A6D86F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80BB851C6C5F9A1651E89B764A6D86F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				201E828E51E403D91FE4418E54798C40 /* Pods-XKCalendarUtil_Example */,
+				2828B9EB1E31B9248B6A17886019596F /* Pods-XKCalendarUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A64D321E1A4139892968EED4C593CE3 /* XKCalendarUtil */ = {
+			isa = PBXGroup;
+			children = (
+				FD66FF9CB08D31A9ABA2C3A56AA0DE22 /* XKCalendarUtil.h */,
+				459D0E08CB4F9D1945318A1A4F41E85E /* XKCalendarUtil.m */,
+				EFB8B9E37310DEB2619A4E594E22AB1E /* CoreCalendar */,
+				30B1CD8B019FCF13F4B22C1105766721 /* Pod */,
+				DB3DDAB1A1B0DB04124B5825BF608800 /* Support Files */,
+			);
+			name = XKCalendarUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A6833DC9A7D866581A0DC21FB6BE8C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B078634E33564C044D1343EE4D2238 /* Pods_XKCalendarUtil_Example.framework */,
+				F6586407487B9DF42CC42FD02B7D1F97 /* Pods_XKCalendarUtil_Tests.framework */,
+				6C56AFF9DC9CAF401CA8C55443B5E666 /* XKCalendarUtil.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB3DDAB1A1B0DB04124B5825BF608800 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BBDA66AF697F954493FC0816F0EE824 /* Info.plist */,
+				8B3C3FC635DF90550355AF5F272419C1 /* XKCalendarUtil.modulemap */,
+				A32BDF6DF8767134C487913D2825532D /* XKCalendarUtil.xcconfig */,
+				636A367A4CFEF60FF9245172155F7F4A /* XKCalendarUtil-dummy.m */,
+				39BBA8010FBAF43F422F8167103C7C14 /* XKCalendarUtil-prefix.pch */,
+				B5AC01550B51C7D812514E17F3AD7155 /* XKCalendarUtil-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKCalendarUtil";
+			sourceTree = "<group>";
+		};
+		EFB8B9E37310DEB2619A4E594E22AB1E /* CoreCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F25257A3B32695AD3A3A479585795687 /* CalendarDisplyManager.h */,
+				0C81E1819F1152B26664DA8FCBB1F0AE /* CalendarDisplyManager.m */,
+				2F582D458E962D50BC240853D8269325 /* CalendarHeader.h */,
+				6F843B2F0B7AA8308E2B9E2137A53E91 /* Lunar.h */,
+				45CA9558F418C6C00673E36844C811B1 /* Lunar.m */,
+				635C13CB0B1D81474F258E024A1130C8 /* LunarSolarTransform.h */,
+				E7A9C76103E57C5E3AEB769C13A2D051 /* LunarSolarTransform.m */,
+				CC2A171AA700234E43DA858CA99D1E4E /* Solar.h */,
+				3DD22C15B884E8C2C15E2F1F38BEC892 /* Solar.m */,
+			);
+			name = CoreCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3118ADB920B5086D717B7961BB1E6F77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C0D518CCB96F9E85A9123FB02C94EC /* Pods-XKCalendarUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EE07D8E837C8868DF2922FD91C236D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194126AE589DF53E71DC71543E4EABE2 /* CalendarDisplyManager.h in Headers */,
+				756A2ED375600BC24FB6281C943C3795 /* CalendarHeader.h in Headers */,
+				00193051E1AEFF3F48953A48EFB927D5 /* Lunar.h in Headers */,
+				83F759075EDAC55EFF17F633882308D1 /* LunarSolarTransform.h in Headers */,
+				2E91C1CD40C9B05C0331666103EB82B3 /* Solar.h in Headers */,
+				07D87C36D2A23A48B8123916EED0B7D3 /* XKCalendarUtil-umbrella.h in Headers */,
+				1F09CF23A7D7273EF8FD661A41A7831E /* XKCalendarUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10E2346F4822759E78F0A1FD52B438A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BE2A4A6AC8A81BDC353D73DA27D034 /* Pods-XKCalendarUtil_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80021DF32CF7585B3ABCA76681604DD5 /* Pods-XKCalendarUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E858A1E2F966CAAEAE512E28D330B6C /* Build configuration list for PBXNativeTarget "Pods-XKCalendarUtil_Tests" */;
+			buildPhases = (
+				3118ADB920B5086D717B7961BB1E6F77 /* Headers */,
+				9CBF1EB9B8B11B6C3DF7B3D01F32E6E2 /* Sources */,
+				40D4882370F3414C8BD8D2C028AD33D1 /* Frameworks */,
+				425655BAF9397ABA4A2F65D8483E994A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC6E7AC48510A7902539F2EDAB98E4A /* PBXTargetDependency */,
+			);
+			name = "Pods-XKCalendarUtil_Tests";
+			productName = "Pods-XKCalendarUtil_Tests";
+			productReference = F6586407487B9DF42CC42FD02B7D1F97 /* Pods_XKCalendarUtil_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A172CEC241CA546D7C03782BEB89669B /* Pods-XKCalendarUtil_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F3F21FE674AE0C5FDA7838060C8256 /* Build configuration list for PBXNativeTarget "Pods-XKCalendarUtil_Example" */;
+			buildPhases = (
+				E10E2346F4822759E78F0A1FD52B438A /* Headers */,
+				868793809653833B0BD9E46FE6D782B9 /* Sources */,
+				2FF169FA2B1FFDFCF8B9A4098BF98DA4 /* Frameworks */,
+				912B3EF45BBBA38A516896F3CFF059AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10493D27E6FACA1F7A4297001B7FCA4B /* PBXTargetDependency */,
+			);
+			name = "Pods-XKCalendarUtil_Example";
+			productName = "Pods-XKCalendarUtil_Example";
+			productReference = B2B078634E33564C044D1343EE4D2238 /* Pods_XKCalendarUtil_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE8367F56555F400FA6D5576C8AB1E4E /* XKCalendarUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51702CF338A408339E6C021D7560906 /* Build configuration list for PBXNativeTarget "XKCalendarUtil" */;
+			buildPhases = (
+				60EE07D8E837C8868DF2922FD91C236D /* Headers */,
+				D0C19554F2B908C94C5DB52A56138231 /* Sources */,
+				136D53505025424EE7CFC46EE2AB97F7 /* Frameworks */,
+				C0A10641CBECCE47559D3363B85808DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKCalendarUtil;
+			productName = XKCalendarUtil;
+			productReference = 6C56AFF9DC9CAF401CA8C55443B5E666 /* XKCalendarUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6833DC9A7D866581A0DC21FB6BE8C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A172CEC241CA546D7C03782BEB89669B /* Pods-XKCalendarUtil_Example */,
+				80021DF32CF7585B3ABCA76681604DD5 /* Pods-XKCalendarUtil_Tests */,
+				DE8367F56555F400FA6D5576C8AB1E4E /* XKCalendarUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425655BAF9397ABA4A2F65D8483E994A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912B3EF45BBBA38A516896F3CFF059AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A10641CBECCE47559D3363B85808DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868793809653833B0BD9E46FE6D782B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB82E39A5F08EDEA0F7B06EEA3ADD646 /* Pods-XKCalendarUtil_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBF1EB9B8B11B6C3DF7B3D01F32E6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A0A2C859AE13823B3F5125935197F3 /* Pods-XKCalendarUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C19554F2B908C94C5DB52A56138231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1795EFCF5C43087A08DC78E5D264126 /* CalendarDisplyManager.m in Sources */,
+				BA3BD15921DA7A20E6CFD70C47EDC415 /* Lunar.m in Sources */,
+				95CA705FAEEE6DDDDF6EEE1961A75FFB /* LunarSolarTransform.m in Sources */,
+				1292BBC6CDAA184C390BDA7547B2DA88 /* Solar.m in Sources */,
+				386FBA79DC33A0B4F2681541AC31BFA5 /* XKCalendarUtil-dummy.m in Sources */,
+				933DA2C2309FC4B9BB3C842717CEBCA0 /* XKCalendarUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10493D27E6FACA1F7A4297001B7FCA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKCalendarUtil;
+			target = DE8367F56555F400FA6D5576C8AB1E4E /* XKCalendarUtil */;
+			targetProxy = 3E6CCF3C8981CF46677A63EB5E3CDF27 /* PBXContainerItemProxy */;
+		};
+		FDC6E7AC48510A7902539F2EDAB98E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKCalendarUtil_Example";
+			target = A172CEC241CA546D7C03782BEB89669B /* Pods-XKCalendarUtil_Example */;
+			targetProxy = 5031335A05B4EC2F4CA3E4A4B5FDEF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35834A186D43708488A23E7B60846D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32BDF6DF8767134C487913D2825532D /* XKCalendarUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKCalendarUtil/XKCalendarUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKCalendarUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKCalendarUtil/XKCalendarUtil.modulemap";
+				PRODUCT_MODULE_NAME = XKCalendarUtil;
+				PRODUCT_NAME = XKCalendarUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		540085267641E6F26F8629EBDC22709F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52193F8EE502C828F0A101204354F07F /* Pods-XKCalendarUtil_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKCalendarUtil_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKCalendarUtil_Example/Pods-XKCalendarUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		78AAFF97CF8A431CB7906315E74E9CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912709ACE92049B724C8F1EA7CD82FE5 /* Pods-XKCalendarUtil_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKCalendarUtil_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKCalendarUtil_Example/Pods-XKCalendarUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3B9850514536078D51425027AE373A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FFB5241158849AB4A93FBAAC5999B9 /* Pods-XKCalendarUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKCalendarUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKCalendarUtil_Tests/Pods-XKCalendarUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A56AEA6D2188FF6D7DD7F69717FEE40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32BDF6DF8767134C487913D2825532D /* XKCalendarUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XKCalendarUtil/XKCalendarUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XKCalendarUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XKCalendarUtil/XKCalendarUtil.modulemap";
+				PRODUCT_MODULE_NAME = XKCalendarUtil;
+				PRODUCT_NAME = XKCalendarUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9F98DACCB41AE98695635216D110241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2B57E3E18DF4D6F3A07D56DC14D4CF /* Pods-XKCalendarUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XKCalendarUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKCalendarUtil_Tests/Pods-XKCalendarUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F3F21FE674AE0C5FDA7838060C8256 /* Build configuration list for PBXNativeTarget "Pods-XKCalendarUtil_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78AAFF97CF8A431CB7906315E74E9CA3 /* Debug */,
+				540085267641E6F26F8629EBDC22709F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E858A1E2F966CAAEAE512E28D330B6C /* Build configuration list for PBXNativeTarget "Pods-XKCalendarUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B9850514536078D51425027AE373A5 /* Debug */,
+				E9F98DACCB41AE98695635216D110241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51702CF338A408339E6C021D7560906 /* Build configuration list for PBXNativeTarget "XKCalendarUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35834A186D43708488A23E7B60846D08 /* Debug */,
+				A56AEA6D2188FF6D7DD7F69717FEE40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

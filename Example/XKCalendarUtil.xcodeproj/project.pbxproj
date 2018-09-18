@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023E54C432D7322FBC0C4452 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		040CF519C7FFBB60EB2908EA /* XKCalendarUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKCalendarUtil.podspec; path = ../XKCalendarUtil.podspec; sourceTree = "<group>"; };
+		023E54C432D7322FBC0C4452 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		040CF519C7FFBB60EB2908EA /* XKCalendarUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKCalendarUtil.podspec; path = ../XKCalendarUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F772A896FC5A92AB6D45C41 /* Pods-XKCalendarUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKCalendarUtil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKCalendarUtil_Tests/Pods-XKCalendarUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XKCalendarUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKCalendarUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730369FAC5C309E15B059390 /* Pods-XKCalendarUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKCalendarUtil_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKCalendarUtil_Example/Pods-XKCalendarUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1AC57E29F1EB87A41511639 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A1AC57E29F1EB87A41511639 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E4759DC3EDF04DE38385BC4B /* Pods-XKCalendarUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKCalendarUtil_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKCalendarUtil_Example/Pods-XKCalendarUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED92C6371E3BE3DCC00430CB /* Pods-XKCalendarUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKCalendarUtil_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKCalendarUtil_Tests/Pods-XKCalendarUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F54EF4051AFF711986C8B607 /* Pods_XKCalendarUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKCalendarUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XKCalendarUtil_Tests-checkManifestLockResult.txt",
 			);
@@ -321,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XKCalendarUtil_Example-checkManifestLockResult.txt",
 			);
@@ -343,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XKCalendarUtil_Example/Pods-XKCalendarUtil_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XKCalendarUtil/XKCalendarUtil.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKCalendarUtil.framework",
 			);

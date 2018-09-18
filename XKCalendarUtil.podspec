@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XKCalendarUtil'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XKCalendarUtil.'
+  s.version          = '1.0.0'
+  s.summary          = '日历工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '阴阳历部分基于孙云飞大神写的进行封装'
 
   s.homepage         = 'https://github.com/kunhum/XKCalendarUtil'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kunhum' => '842222367@qq.com' }
+  s.author           = { 'kunhum' => 'kunhum@163.com' }
   s.source           = { :git => 'https://github.com/kunhum/XKCalendarUtil.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XKCalendarUtil/Classes/**/*'
+  s.source_files = 'XKCalendarUtil/Classes/XKCalendarUtil/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XKCalendarUtil' => ['XKCalendarUtil/Assets/*.png']
@@ -39,4 +37,10 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'CoreCalendar' do |coreCalendar|
+      coreCalendar.source_files = 'XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/*.{h,m}'
+      coreCalendar.public_header_files = 'XKCalendarUtil/Classes/XKCalendarUtil/CoreCalendar/*.h'
+  end
+  
 end

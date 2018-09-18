@@ -1,0 +1,18 @@
+PODS:
+  - XKCalendarUtil (1.0.0):
+    - XKCalendarUtil/CoreCalendar (= 1.0.0)
+  - XKCalendarUtil/CoreCalendar (1.0.0)
+
+DEPENDENCIES:
+  - XKCalendarUtil (from `../`)
+
+EXTERNAL SOURCES:
+  XKCalendarUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKCalendarUtil: ece015fc087199930a883859a54d498c0bb4e06d
+
+PODFILE CHECKSUM: 265bc950c96e6ce0bba13559dde92c4eae396c16
+
+COCOAPODS: 1.5.3
